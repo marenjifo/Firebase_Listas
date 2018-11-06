@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //Usuario aleja= new Usuario("alefa","Alejandra","mar45@gmail.com","23563e3");
         //reference.push().setValue(aleja);
 
+        //Leer una sola vez
         reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
